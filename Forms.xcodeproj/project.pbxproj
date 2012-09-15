@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D62E66615B21F3E002B7A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D62E66515B21F3E002B7A54 /* Foundation.framework */; };
+		4D62E68915B21F65002B7A54 /* FormItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E67215B21F64002B7A54 /* FormItem.h */; };
+		4D62E68A15B21F65002B7A54 /* FormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E67315B21F64002B7A54 /* FormItem.m */; };
+		4D62E68B15B21F65002B7A54 /* DateFormItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E67415B21F64002B7A54 /* DateFormItem.h */; };
+		4D62E68C15B21F65002B7A54 /* DateFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E67515B21F64002B7A54 /* DateFormItem.m */; };
+		4D62E68D15B21F65002B7A54 /* SelectFormItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E67615B21F64002B7A54 /* SelectFormItem.h */; };
+		4D62E68E15B21F65002B7A54 /* SelectFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E67715B21F64002B7A54 /* SelectFormItem.m */; };
+		4D62E68F15B21F65002B7A54 /* BooleanFormItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E67815B21F64002B7A54 /* BooleanFormItem.h */; };
+		4D62E69015B21F65002B7A54 /* BooleanFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E67915B21F64002B7A54 /* BooleanFormItem.m */; };
+		4D62E69115B21F65002B7A54 /* AutoCompleteFormItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E67A15B21F64002B7A54 /* AutoCompleteFormItem.h */; };
+		4D62E69215B21F65002B7A54 /* AutoCompleteFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E67B15B21F64002B7A54 /* AutoCompleteFormItem.m */; };
+		4D62E69315B21F65002B7A54 /* SelectPageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E67C15B21F64002B7A54 /* SelectPageItem.h */; };
+		4D62E69415B21F65002B7A54 /* SelectPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E67D15B21F64002B7A54 /* SelectPageItem.m */; };
+		4D62E69515B21F65002B7A54 /* PickerTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E67E15B21F64002B7A54 /* PickerTableView.h */; };
+		4D62E69615B21F65002B7A54 /* PickerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E67F15B21F64002B7A54 /* PickerTableView.m */; };
+		4D62E69715B21F65002B7A54 /* AutoCompleteSQLItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E68015B21F64002B7A54 /* AutoCompleteSQLItem.h */; };
+		4D62E69815B21F65002B7A54 /* AutoCompleteSQLItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E68115B21F64002B7A54 /* AutoCompleteSQLItem.m */; };
+		4D62E69915B21F65002B7A54 /* SignatureFormItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E68215B21F65002B7A54 /* SignatureFormItem.h */; };
+		4D62E69A15B21F65002B7A54 /* SignatureFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E68315B21F65002B7A54 /* SignatureFormItem.m */; };
+		4D62E69B15B21F65002B7A54 /* AttachementsFormItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E68415B21F65002B7A54 /* AttachementsFormItem.h */; };
+		4D62E69C15B21F65002B7A54 /* AttachementsFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E68515B21F65002B7A54 /* AttachementsFormItem.m */; };
+		4D62E69D15B21F65002B7A54 /* MultiSectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E68615B21F65002B7A54 /* MultiSectionView.h */; };
+		4D62E69E15B21F65002B7A54 /* MultiSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E68715B21F65002B7A54 /* MultiSectionView.m */; };
+		4D62E69F15B21F65002B7A54 /* FilterIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E68815B21F65002B7A54 /* FilterIF.h */; };
+		4D62E6A115B21FD1002B7A54 /* FormTableDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E6A015B21FD1002B7A54 /* FormTableDelegate.h */; };
+		4D62E6A715B224B4002B7A54 /* CustomTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E6A515B224B3002B7A54 /* CustomTextField.h */; };
+		4D62E6A815B224B4002B7A54 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E6A615B224B3002B7A54 /* CustomTextField.m */; };
+		4D62E6AB15B2257E002B7A54 /* AutoDataSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E6A915B2257D002B7A54 /* AutoDataSingleton.h */; };
+		4D62E6AF15B22621002B7A54 /* SignatureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E6AD15B2261F002B7A54 /* SignatureView.h */; };
+		4D62E6B015B22621002B7A54 /* SignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E6AE15B22620002B7A54 /* SignatureView.m */; };
+		4D62E6B315B22641002B7A54 /* BaseFormTableController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D62E6B115B22640002B7A54 /* BaseFormTableController.h */; };
+		4D62E6B415B22641002B7A54 /* BaseFormTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E6B215B22640002B7A54 /* BaseFormTableController.m */; };
+		4D62E70215B2B76E002B7A54 /* AutoDataSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D62E70115B2B76E002B7A54 /* AutoDataSingleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D32F4C615B797A500BAF983 /* BaseForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseForm.h; sourceTree = "<group>"; };
+		4D62E66215B21F3E002B7A54 /* libForms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libForms.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D62E66515B21F3E002B7A54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D62E66915B21F3E002B7A54 /* Forms-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Forms-Prefix.pch"; sourceTree = "<group>"; };
+		4D62E67215B21F64002B7A54 /* FormItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormItem.h; sourceTree = "<group>"; };
+		4D62E67315B21F64002B7A54 /* FormItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormItem.m; sourceTree = "<group>"; };
+		4D62E67415B21F64002B7A54 /* DateFormItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateFormItem.h; sourceTree = "<group>"; };
+		4D62E67515B21F64002B7A54 /* DateFormItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateFormItem.m; sourceTree = "<group>"; };
+		4D62E67615B21F64002B7A54 /* SelectFormItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectFormItem.h; sourceTree = "<group>"; };
+		4D62E67715B21F64002B7A54 /* SelectFormItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectFormItem.m; sourceTree = "<group>"; };
+		4D62E67815B21F64002B7A54 /* BooleanFormItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooleanFormItem.h; sourceTree = "<group>"; };
+		4D62E67915B21F64002B7A54 /* BooleanFormItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooleanFormItem.m; sourceTree = "<group>"; };
+		4D62E67A15B21F64002B7A54 /* AutoCompleteFormItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompleteFormItem.h; sourceTree = "<group>"; };
+		4D62E67B15B21F64002B7A54 /* AutoCompleteFormItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompleteFormItem.m; sourceTree = "<group>"; };
+		4D62E67C15B21F64002B7A54 /* SelectPageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPageItem.h; sourceTree = "<group>"; };
+		4D62E67D15B21F64002B7A54 /* SelectPageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPageItem.m; sourceTree = "<group>"; };
+		4D62E67E15B21F64002B7A54 /* PickerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerTableView.h; sourceTree = "<group>"; };
+		4D62E67F15B21F64002B7A54 /* PickerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerTableView.m; sourceTree = "<group>"; };
+		4D62E68015B21F64002B7A54 /* AutoCompleteSQLItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompleteSQLItem.h; sourceTree = "<group>"; };
+		4D62E68115B21F64002B7A54 /* AutoCompleteSQLItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompleteSQLItem.m; sourceTree = "<group>"; };
+		4D62E68215B21F65002B7A54 /* SignatureFormItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureFormItem.h; sourceTree = "<group>"; };
+		4D62E68315B21F65002B7A54 /* SignatureFormItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureFormItem.m; sourceTree = "<group>"; };
+		4D62E68415B21F65002B7A54 /* AttachementsFormItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachementsFormItem.h; sourceTree = "<group>"; };
+		4D62E68515B21F65002B7A54 /* AttachementsFormItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachementsFormItem.m; sourceTree = "<group>"; };
+		4D62E68615B21F65002B7A54 /* MultiSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSectionView.h; sourceTree = "<group>"; };
+		4D62E68715B21F65002B7A54 /* MultiSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiSectionView.m; sourceTree = "<group>"; };
+		4D62E68815B21F65002B7A54 /* FilterIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterIF.h; sourceTree = "<group>"; };
+		4D62E6A015B21FD1002B7A54 /* FormTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormTableDelegate.h; sourceTree = "<group>"; };
+		4D62E6A515B224B3002B7A54 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		4D62E6A615B224B3002B7A54 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		4D62E6A915B2257D002B7A54 /* AutoDataSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoDataSingleton.h; sourceTree = "<group>"; };
+		4D62E6AD15B2261F002B7A54 /* SignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureView.h; sourceTree = "<group>"; };
+		4D62E6AE15B22620002B7A54 /* SignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureView.m; sourceTree = "<group>"; };
+		4D62E6B115B22640002B7A54 /* BaseFormTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFormTableController.h; sourceTree = "<group>"; };
+		4D62E6B215B22640002B7A54 /* BaseFormTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseFormTableController.m; sourceTree = "<group>"; };
+		4D62E70115B2B76E002B7A54 /* AutoDataSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoDataSingleton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D62E65F15B21F3E002B7A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D62E66615B21F3E002B7A54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D62E65715B21F3E002B7A54 = {
+			isa = PBXGroup;
+			children = (
+				4D62E66715B21F3E002B7A54 /* Forms */,
+				4D62E66415B21F3E002B7A54 /* Frameworks */,
+				4D62E66315B21F3E002B7A54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D62E66315B21F3E002B7A54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D62E66215B21F3E002B7A54 /* libForms.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D62E66415B21F3E002B7A54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D62E66515B21F3E002B7A54 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D62E66715B21F3E002B7A54 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				4D32F4C615B797A500BAF983 /* BaseForm.h */,
+				4D62E6A515B224B3002B7A54 /* CustomTextField.h */,
+				4D62E6A015B21FD1002B7A54 /* FormTableDelegate.h */,
+				4D62E67415B21F64002B7A54 /* DateFormItem.h */,
+				4D62E67615B21F64002B7A54 /* SelectFormItem.h */,
+				4D62E67815B21F64002B7A54 /* BooleanFormItem.h */,
+				4D62E67A15B21F64002B7A54 /* AutoCompleteFormItem.h */,
+				4D62E67C15B21F64002B7A54 /* SelectPageItem.h */,
+				4D62E67E15B21F64002B7A54 /* PickerTableView.h */,
+				4D62E68015B21F64002B7A54 /* AutoCompleteSQLItem.h */,
+				4D62E68215B21F65002B7A54 /* SignatureFormItem.h */,
+				4D62E68415B21F65002B7A54 /* AttachementsFormItem.h */,
+				4D62E68615B21F65002B7A54 /* MultiSectionView.h */,
+				4D62E68815B21F65002B7A54 /* FilterIF.h */,
+				4D62E6A915B2257D002B7A54 /* AutoDataSingleton.h */,
+				4D62E6AD15B2261F002B7A54 /* SignatureView.h */,
+				4D62E6B115B22640002B7A54 /* BaseFormTableController.h */,
+				4D62E6A615B224B3002B7A54 /* CustomTextField.m */,
+				4D62E67215B21F64002B7A54 /* FormItem.h */,
+				4D62E67315B21F64002B7A54 /* FormItem.m */,
+				4D62E67515B21F64002B7A54 /* DateFormItem.m */,
+				4D62E67715B21F64002B7A54 /* SelectFormItem.m */,
+				4D62E67915B21F64002B7A54 /* BooleanFormItem.m */,
+				4D62E67B15B21F64002B7A54 /* AutoCompleteFormItem.m */,
+				4D62E67D15B21F64002B7A54 /* SelectPageItem.m */,
+				4D62E67F15B21F64002B7A54 /* PickerTableView.m */,
+				4D62E68115B21F64002B7A54 /* AutoCompleteSQLItem.m */,
+				4D62E68315B21F65002B7A54 /* SignatureFormItem.m */,
+				4D62E68515B21F65002B7A54 /* AttachementsFormItem.m */,
+				4D62E68715B21F65002B7A54 /* MultiSectionView.m */,
+				4D62E70115B2B76E002B7A54 /* AutoDataSingleton.m */,
+				4D62E6AE15B22620002B7A54 /* SignatureView.m */,
+				4D62E6B215B22640002B7A54 /* BaseFormTableController.m */,
+				4D62E66815B21F3E002B7A54 /* Supporting Files */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		4D62E66815B21F3E002B7A54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D62E66915B21F3E002B7A54 /* Forms-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D62E66015B21F3E002B7A54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D62E68915B21F65002B7A54 /* FormItem.h in Headers */,
+				4D62E68B15B21F65002B7A54 /* DateFormItem.h in Headers */,
+				4D62E68D15B21F65002B7A54 /* SelectFormItem.h in Headers */,
+				4D62E68F15B21F65002B7A54 /* BooleanFormItem.h in Headers */,
+				4D62E69115B21F65002B7A54 /* AutoCompleteFormItem.h in Headers */,
+				4D62E69315B21F65002B7A54 /* SelectPageItem.h in Headers */,
+				4D62E69515B21F65002B7A54 /* PickerTableView.h in Headers */,
+				4D62E69715B21F65002B7A54 /* AutoCompleteSQLItem.h in Headers */,
+				4D62E69915B21F65002B7A54 /* SignatureFormItem.h in Headers */,
+				4D62E69B15B21F65002B7A54 /* AttachementsFormItem.h in Headers */,
+				4D62E69D15B21F65002B7A54 /* MultiSectionView.h in Headers */,
+				4D62E69F15B21F65002B7A54 /* FilterIF.h in Headers */,
+				4D62E6A115B21FD1002B7A54 /* FormTableDelegate.h in Headers */,
+				4D62E6A715B224B4002B7A54 /* CustomTextField.h in Headers */,
+				4D62E6AB15B2257E002B7A54 /* AutoDataSingleton.h in Headers */,
+				4D62E6AF15B22621002B7A54 /* SignatureView.h in Headers */,
+				4D62E6B315B22641002B7A54 /* BaseFormTableController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D62E66115B21F3E002B7A54 /* Forms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D62E66F15B21F3E002B7A54 /* Build configuration list for PBXNativeTarget "Forms" */;
+			buildPhases = (
+				4D62E65E15B21F3E002B7A54 /* Sources */,
+				4D62E65F15B21F3E002B7A54 /* Frameworks */,
+				4D62E66015B21F3E002B7A54 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Forms;
+			productName = Forms;
+			productReference = 4D62E66215B21F3E002B7A54 /* libForms.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D62E65915B21F3E002B7A54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Invoax Pty Ltd";
+			};
+			buildConfigurationList = 4D62E65C15B21F3E002B7A54 /* Build configuration list for PBXProject "Forms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D62E65715B21F3E002B7A54;
+			productRefGroup = 4D62E66315B21F3E002B7A54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D62E66115B21F3E002B7A54 /* Forms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D62E65E15B21F3E002B7A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D62E68A15B21F65002B7A54 /* FormItem.m in Sources */,
+				4D62E68C15B21F65002B7A54 /* DateFormItem.m in Sources */,
+				4D62E68E15B21F65002B7A54 /* SelectFormItem.m in Sources */,
+				4D62E69015B21F65002B7A54 /* BooleanFormItem.m in Sources */,
+				4D62E69215B21F65002B7A54 /* AutoCompleteFormItem.m in Sources */,
+				4D62E69415B21F65002B7A54 /* SelectPageItem.m in Sources */,
+				4D62E69615B21F65002B7A54 /* PickerTableView.m in Sources */,
+				4D62E69815B21F65002B7A54 /* AutoCompleteSQLItem.m in Sources */,
+				4D62E69A15B21F65002B7A54 /* SignatureFormItem.m in Sources */,
+				4D62E69C15B21F65002B7A54 /* AttachementsFormItem.m in Sources */,
+				4D62E69E15B21F65002B7A54 /* MultiSectionView.m in Sources */,
+				4D62E6A815B224B4002B7A54 /* CustomTextField.m in Sources */,
+				4D62E6B015B22621002B7A54 /* SignatureView.m in Sources */,
+				4D62E6B415B22641002B7A54 /* BaseFormTableController.m in Sources */,
+				4D62E70215B2B76E002B7A54 /* AutoDataSingleton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D62E66D15B21F3E002B7A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D62E66E15B21F3E002B7A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D62E67015B21F3E002B7A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Forms.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forms/Forms-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D62E67115B21F3E002B7A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Forms.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forms/Forms-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D62E65C15B21F3E002B7A54 /* Build configuration list for PBXProject "Forms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D62E66D15B21F3E002B7A54 /* Debug */,
+				4D62E66E15B21F3E002B7A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D62E66F15B21F3E002B7A54 /* Build configuration list for PBXNativeTarget "Forms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D62E67015B21F3E002B7A54 /* Debug */,
+				4D62E67115B21F3E002B7A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D62E65915B21F3E002B7A54 /* Project object */;
+}
